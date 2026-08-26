@@ -1,7 +1,8 @@
 package com.example.product_service.event;
 
-public record OrderCreatedEvent(
+public record InventoryEvent(
         Long orderId,
         Long productId,
-        int quantity
+        int quantity,
+        String status
 ) {}

@@ -1,4 +1,4 @@
-package com.example.product_service.event;
+package com.example.order_service.event;
 
 public record OrderCreatedEvent(
         Long orderId,
